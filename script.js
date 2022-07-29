@@ -1,7 +1,7 @@
 const totalScore = { computerScore: 0, playerScore: 0 };
 
 function getComputerChoice() {
-	let rpsChoice = ["rock", "paper", "scizors"];
+	let rpsChoice = ["rock", "paper", "scissors"];
 	const index = Math.floor(Math.random() * 3);
 	return rpsChoice[index];
 }
@@ -10,11 +10,11 @@ function getResult(playerChoice, computerChoice) {
 	let score;
 	if (playerChoice == computerChoice) {
 		score = 0;
-	} else if (playerChoice == "rock" && computerChoice == "scizors") {
+	} else if (playerChoice == "rock" && computerChoice == "scissors") {
 		score = 1;
 	} else if (playerChoice == "paper" && computerChoice == "rock") {
 		score = 1;
-	} else if (playerChoice == "scizors" && computerChoice == "paper") {
+	} else if (playerChoice == "scissors" && computerChoice == "paper") {
 		score = 1;
 	} else {
 		score = -1;
