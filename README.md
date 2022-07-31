@@ -1,5 +1,5 @@
 # Rock Paper and Scissors Game
-An easy rock, paper, scizors game using vanilla JS
+An easy rock, paper, scissors game using vanilla JS
 
 ## Table of contents
 * [Technologies](#technologies)
